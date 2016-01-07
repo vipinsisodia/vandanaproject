@@ -267,7 +267,21 @@
                 }
                 getFooter();
             }
-                   </script>
+			
+			
+			
+			VideoPlayer.play("file:///android_asset/www/3817574.mp4");
+					VideoPlayer.play(
+						"file:///android_asset/www/3817574.mp4",
+						{
+							volume: 0.5,
+							scalingMode: VideoPlayer.SCALING_MODE.SCALE_TO_FIT_WITH_CROPPING
+						},
+						function (err) {
+							console.log(err);
+						}
+					);
+     </script>
     </head>
     <body onLoad="onLoad()">
         <div data-role="page" data-dom-cache="true" id="mainpage" class="pushnotification">
