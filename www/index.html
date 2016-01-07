@@ -270,19 +270,6 @@
 			
 			
 			
-			VideoPlayer.play("file:///android_asset/www/3817574.mp4");
-					VideoPlayer.play(
-						"file:///android_asset/www/3817574.mp4",
-						{
-							volume: 0.5,
-							scalingMode: VideoPlayer.SCALING_MODE.SCALE_TO_FIT_WITH_CROPPING
-						},
-						function (err) {
-							console.log(err);
-						}
-					);
-					
-					VideoPlayer.get();
      </script>
     </head>
     <body onLoad="onLoad()">
@@ -338,7 +325,11 @@
                 <div id="featured_owl"  class="parent" data-role="none">
                 	
                 </div>
-                
+                <div>
+				<script type="text/javascript">
+				VideoPlayer.play("file:///android_asset/www/3817574.mp4");
+				</script>
+				</div>
                 <!-- Slider for Optional Products -->
                 <div class="category_list" style="display:none" id="new_products_outer_div">
                     <div class="heading_text" id="new_products_inner_div"></div>
