@@ -319,7 +319,7 @@ div.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
 }
 
 html head + body .ui-btn.ui-btn-b{
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
     border: 0 none;
     border-radius: 4px;
@@ -337,7 +337,7 @@ html head + body .ui-btn.ui-btn-b{
 }
 
 html head + body .ui-btn.ui-btn-b:hover{
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
     border: 0 none;
     border-radius: 4px;
@@ -356,7 +356,7 @@ html head + body .ui-btn.ui-btn-b:hover{
 }
 
 html head + body .ui-btn.ui-btn-b:active{
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
     text-shadow: none;
     font-size: 1.2em;
@@ -371,7 +371,7 @@ html head + body .ui-btn.ui-btn-b:active{
 }
 
 html head + body .ui-btn.ui-btn-b.ui-btn-active{
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
     text-shadow: none;
     font-size: 1em;
@@ -387,7 +387,7 @@ html head + body .ui-btn.ui-btn-b.ui-btn-active{
 
 
 html head + body .ui-btn.ui-btn-c{
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
     text-shadow: none;
     font-size: 1.1em;
@@ -413,7 +413,7 @@ html head + body .ui-btn.ui-btn-c:hover{
 }
 
 html head + body .ui-btn.ui-btn-c:active{
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
     text-shadow: none;
     font-size: 1.1em;
@@ -427,7 +427,7 @@ html head + body .ui-btn.ui-btn-c:active{
 }
 BG_PRIMARY_BUTTON
 html head + body .ui-btn.ui-btn-c.ui-btn-active{
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
     text-shadow: none;
     font-size: 1em;
@@ -597,32 +597,32 @@ div#profile.ui-collapsible,div#default_bill_address.ui-collapsible,div#default_s
 }
 
 div#profile a.ui-collapsible-heading-toggle.ui-btn.ui-icon-arrow-rr.ui-btn-icon-left.ui-btn-inherit {
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
 }
 
 div#profile a.ui-collapsible-heading-toggle.ui-btn.ui-icon-arrow-dd.ui-btn-icon-left.ui-btn-inherit {
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
 }
 
 div#default_bill_address a.ui-collapsible-heading-toggle.ui-btn.ui-icon-arrow-rr.ui-btn-icon-left.ui-btn-inherit {
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
 }
 
 div#default_bill_address a.ui-collapsible-heading-toggle.ui-btn.ui-icon-arrow-dd.ui-btn-icon-left.ui-btn-inherit {
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
 }
 
 div#default_shipp_address a.ui-collapsible-heading-toggle.ui-btn.ui-icon-arrow-rr.ui-btn-icon-left.ui-btn-inherit {
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
 }
 
 div#default_shipp_address a.ui-collapsible-heading-toggle.ui-btn.ui-icon-arrow-dd.ui-btn-icon-left.ui-btn-inherit {
-    background-color: #ff8a00;
+    background-color: #747474;
     color: #ffffff;
 }
 
@@ -1196,7 +1196,7 @@ div.vertical {
 
 .cart_Button{
     min-width: .75em;
-    background-color: #ff8a00;
+    background-color: #747474;
     margin: 10px 10px;
     padding: 7px;
     color: #ffffff;
@@ -1358,7 +1358,7 @@ label.ui-btn.ui-corner-all.ui-btn-inherit.ui-btn-icon-left.ui-radio-on {
 
 
 
-.ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-body-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head + body .ui-btn.ui-btn-b:hover{background-color:#FF8A00 !important;}
+.ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-body-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head + body .ui-btn.ui-btn-b:hover{background-color:#747474 !important;}
 .secondary_btn_foreground{display:none;}
 .primary_btn_foreground{display:none;}
 div.product_img_container{cursor: pointer;}
@@ -2161,4 +2161,4 @@ div#new_owl.owl-carousel.owl-theme
     height:100% !important;
 }
 
-.ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-body-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head + body .ui-btn.ui-btn-b:hover{background-color:#ff8a00 !important;color:#ffffff !important;}
+.ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-body-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head + body .ui-btn.ui-btn-b:hover{background-color:#747474 !important;color:#ffffff !important;}
