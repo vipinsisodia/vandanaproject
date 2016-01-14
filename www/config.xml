@@ -26,6 +26,7 @@
     	<gap:plugin name="nl.x-services.plugins.socialsharing"/>
     	<gap:plugin name="com.telerik.plugins.nativepagetransitions"/>
 		<gap:plugin name="com.moust.cordova.videoplayer" spec="1.0.0" source="pgb" />
+		<gap:plugin name="com.bunkerpalace.cordova.YoutubeVideoPlayer"/>
   	<!--	<gap:plugin name="nl.x-services.plugins.googleplus" source="plugins.cordova.io"/> -->
   		
     	<!--Icons and Splash Screens Configuration for Mofluid Apps-->
