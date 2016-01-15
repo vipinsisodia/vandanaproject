@@ -78,7 +78,7 @@
                 <preference name="target-device" value="universal" />
                 <preference name="DisallowOverscroll" value="true" />
           	<preference name="webviewbounce" value="false" />
-          	 <preference name="SplashScreenDelay" value="10000" />
+          	 <preference name="SplashScreenDelay" value="6000" />
 
         
 
