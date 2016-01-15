@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
     <widget xmlns:gap="http://phonegap.com/ns/1.0" 
     xmlns="http://www.w3.org/ns/widgets" 
-    id="com.eluvy.app" 
+    id="com.eluvy.eluvy" 
     version="3.1.1">
 
         <name>Eluvy</name>
