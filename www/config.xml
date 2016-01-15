@@ -18,7 +18,7 @@
     	<gap:plugin name="org.apache.cordova.dialogs" />
     	<gap:plugin name="org.apache.cordova.network-information" />
     	<gap:plugin name="org.apache.cordova.inappbrowser" />
-    
+        <gap:plugin name="org.apache.cordova.splashscreen" />
     	<gap:plugin name="com.phonegap.plugins.pushplugin" />
     	<gap:plugin name="org.apache.cordova.statusbar" />
         <gap:plugin name="com.millerjames01.sqlite-plugin" version="1.0.1" />
