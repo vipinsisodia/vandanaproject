@@ -25,7 +25,17 @@
             }
         
             function onDeviceReady(){
-         
+          document.addEventListener("backbutton", function(e){
+       if($.mobile.activePage.is('#homepage')){
+           e.preventDefault();
+           alert('yes');
+           navigator.app.exitApp();
+       }
+       else {
+       	alert('hello');
+           navigator.app.backHistory()
+       }
+    }, false);
                
                 // fetchStoredetail();
                 if(localStorage.getItem('foo') == 1){
