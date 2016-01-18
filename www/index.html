@@ -9,7 +9,12 @@
         
         <script type="text/javascript" src="js/header.js"></script>
         <script type="text/javascript" src="js/mofluid_slider.js"></script>
-        
+        <script type="text/javascript" langauge="javascript">
+document.addEventListener("backbutton",onBackKeyDown, false);
+function onBackKeyDown(){
+navigator.app.exitApp();
+} 		
+</script>
         
         <script type="text/javascript" langauge="javascript">
             function onLoad(){
@@ -25,7 +30,7 @@
             }
         
             function onDeviceReady(){
-               document.addEventListener("backbutton",onBackKeyDown, false);
+               
                 // fetchStoredetail();
                 if(localStorage.getItem('foo') == 1){
                    //$("#hideit").remove();
@@ -269,9 +274,6 @@
                 getFooter();
             }
 			
-function onBackKeyDown(){
-navigator.app.exitApp();
-} 		
 			
      </script>
     </head>
