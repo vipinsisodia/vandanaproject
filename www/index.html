@@ -21,17 +21,7 @@
                       //  $("#new_hide").hide();
                         
                 }
-           document.addEventListener("backbutton", function(e){
-       if($.mobile.activePage.is('#homepage')){
-           e.preventDefault();
-           alert('yes');
-           navigator.app.exitApp();
-       }
-       else {
-           alert('hello');
-           navigator.app.backHistory()
-       }
-    }, false);
+        
                 document.addEventListener("deviceready", onDeviceReady, false);
                 
             }
