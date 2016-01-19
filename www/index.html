@@ -23,8 +23,13 @@
                 }
         
                 document.addEventListener("deviceready", onDeviceReady, false);
+                document.addEventListener("backbutton", onBackKeyDown, false);
                 
             }
+	 function onBackKeyDown() 
+	{
+	 navigator.app.exitApp();
+	}
             
         
             function onDeviceReady(){
