@@ -44,7 +44,7 @@
 		<!-- iOS Configuration      -->
 		<!-- ====================== -->
 		<!-- Icons -->
-		
+		<icon src="icon.png" />
 		 <icon src="resource/icon/57x57.png" gap:platform="ios" width="57" height="57" />
 		<icon src="resource/icon/72x72px_1.png" gap:platform="ios" width="72" height="72" />
 		<icon src="resource/icon/96x96px_2.png" gap:platform="android" width="96" height="96" />
