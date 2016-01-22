@@ -46,7 +46,7 @@
 		<!-- Icons -->
 		
 		
-		
+		<icon src="resource/icon/72x72px_1.png" gap:platform="ios" width="72" height="72" />
 		<icon src="resource/icon/96x96px_2.png" gap:platform="android" width="96" height="96" />
 		<icon src="resource/icon/72x72px_1.png" gap:platform="android" width="72" height="72" />
 		<icon src="resource/icon/48x48px_1.png" gap:platform="android" width="48" height="48" />
