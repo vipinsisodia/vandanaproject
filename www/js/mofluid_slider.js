@@ -161,8 +161,8 @@ function feature_product_list(results){
                              itemsDesktop : [1000,3], //5 items between 1000px and 901px
                              itemsDesktopSmall : [900,4], // betweem 900px and 601px
                              itemsTablet: [600,3], //2 items between 600 and 0
-							 itemsMobile :[360,1], 
-                             itemsMobile : true,  // itemsMobile disabled - inherit from itemsTablet option
+			     itemsMobile :[360,1], 
+                               // itemsMobile disabled - inherit from itemsTablet option
                              navigation : true,
                              pagination: false,
                              autoPlay:true
