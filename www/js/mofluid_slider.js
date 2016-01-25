@@ -128,7 +128,7 @@ function feature_product_list(results){
             }
             
             featured_pro += '<div class="child">\
-            <div class="slider_products">\
+            <div class="slider_products" >\
             <div style="display:table;width:100%">\
             <div class="home_page_product_list_div" style="height:120px;display:table-cell;vertical-align:middle;" onclick="getProDetail('+pid+','+stock_status+',\''+ptype+'\')">\
             <img src="' + response.products_list[i].image + '" onerror="this.src=\'images/product_default_image.png\'" />\
@@ -161,10 +161,10 @@ function feature_product_list(results){
                              itemsDesktop : [1000,3], //5 items between 1000px and 901px
                              itemsDesktopSmall : [900,4], // betweem 900px and 601px
                              itemsTablet: [600,3], //2 items between 600 and 0
-                             itemsMobile : false,  // itemsMobile disabled - inherit from itemsTablet option
-                             navigation : false,
+                             itemsMobile : true,  // itemsMobile disabled - inherit from itemsTablet option
+                             navigation : true,
                              pagination: false,
-                             autoPlay:false
+                             autoPlay:true
                              });
     
 }
