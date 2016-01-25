@@ -99,7 +99,7 @@ div#featured_owl.owl-carousel.owl-theme,div.owl-wrapper-outer.autoHeight,div.owl
     /*  border: 3px solid white !important; */
     
     height: 170px !important;
-    width: 120px !important;
+    width: 360px !important;
     margin: 0px 0px 15px 10px;
 }
 #featured_owl .item, #featured_owl_optional .item{
