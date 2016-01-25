@@ -300,17 +300,7 @@ function new_product_list(results){
                 price_html += '<h4 class="producth4 product_price_color">' + app_curr_symbol + parseFloat(response.products_list[i].price.replace(",", "")).toFixed(2) + '</h4>';
             }
             featured_pro += '<div class="child">\
-            <div class="slider_products">\
-            <div class="new_header_product_list">\
-            <h2 class="producth2">' + response.products_list[i].name + '</h2>\
-            '+price_html+'\
-            </div>\
-            <div style="display:table;width:100%">\
-            <div class="home_page_product_list_div" style="height:120px;display:table-cell;vertical-align:middle;" onclick="getProDetail('+pid+','+stock_status+',\''+ptype+'\')">\
-            <img src="' + response.products_list[i].image + '" onerror="this.src=\'images/product_default_image.png\'" />\
-            </div>\
-            </div>\
-            </div>\
+           <img src="' + response.products_list[i].image + '" onerror="this.src=\'images/product_default_image.png\'" style=" height:100%; width:100%;"/>\
             </div>';
             
             i++;
