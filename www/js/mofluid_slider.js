@@ -128,7 +128,17 @@ function feature_product_list(results){
             }
             
             featured_pro += '<div class="child">\
-           <img src="' + response.products_list[i].image + '" onerror="this.src=\'images/product_default_image.png\'" style=" height:100%; width:100%;"/>\
+            <div class="slider_products" >\
+            <div style="display:table;width:100%">\
+            <div class="home_page_product_list_div" style="height:120px;display:table-cell;vertical-align:middle;" onclick="getProDetail('+pid+','+stock_status+',\''+ptype+'\')">\
+            <img src="' + response.products_list[i].image + '" onerror="this.src=\'images/product_default_image.png\'" />\
+            </div>\
+            </div>\
+			<div class="new_header_product_list">\
+            <h2 class="producth2">' + response.products_list[i].name + '</h2>\
+            '+price_html+'\
+            </div>\
+            </div>\
             </div>';
             
           //  featured_pro +='<div class="child" >child '+i+'</div>';
@@ -144,7 +154,7 @@ function feature_product_list(results){
         $('#feature_products_outer_div').hide();
         $("#featured_owl").hide();
     }
-    var owl_featured = $("#featured_owl");
+   // var owl_featured = $("#featured_owl");
    
     /*owl_featured.owlCarousel({
                              items : 1, //10 items above 1000px browser width
@@ -158,6 +168,7 @@ function feature_product_list(results){
                              autoPlay:true
                              });
     */
+    
 }
 
 //------------------------------------------------New product list----------------------------------------

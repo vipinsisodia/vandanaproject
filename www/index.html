@@ -308,7 +308,7 @@
             
             <div data-role="content" class="home_content">
                 
-                <div id="searchBox" class="searchbox" style="display:none;">
+                <div id="searchBox" class="searchbox">
                    <form name="serachForm" action="javascript:custom_search();">
                         <div>
                             <input id="searchFilter" type="serach" data-type="search" placeholder="" data-theme="a" />
@@ -335,8 +335,8 @@
                 </div>
                 <div>
 				<script type="text/javascript">
-
-			 VideoPlayer.play("file:///android_asset/www/3817574.mp4");
+				
+			 //VideoPlayer.play("file:///android_asset/www/3817574.mp4");
 
 
 				</script>
@@ -366,7 +366,12 @@
         </div>
         <script type="text/javascript" src="js/footer.js"></script>
     </body>
-    
+<script type="text/javascript">
+$('#searchBox').click(
+function (){
+$("#searchFilter").focus();
+});
+</script> 
     <script>
 	
 	 function hidenav()
