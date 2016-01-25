@@ -130,7 +130,7 @@ function feature_product_list(results){
             featured_pro += '<div class="child">\
             <div class="slider_products">\
             <div style="display:table;width:100%">\
-            <div class="home_page_product_list_div" style="height:120px;display:table-cell;vertical-align:middle;" onclick="getProDetail('+pid+','+stock_status+',\''+ptype+'\')">\
+            <div class="home_page_product_list_div" style="height:180px;display:table-cell;vertical-align:middle;width:200px;" onclick="getProDetail('+pid+','+stock_status+',\''+ptype+'\')">\
             <img src="' + response.products_list[i].image + '" onerror="this.src=\'images/product_default_image.png\'" />\
             </div>\
             </div>\
