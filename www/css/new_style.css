@@ -197,6 +197,17 @@ div#new_owl.owl-carousel.owl-theme,div.owl-wrapper-outer.autoHeight,div.owl-wrap
 }
 
 
+.main-aap{width:100%; float:left; margin:0; padding:0;}
+.main-aap .banner{width:100%; margin:0; padding:0; float:left;}
+.main-aap .banner img{width:100%; margin:0; padding:0;}
+.main-aap .main-cate{width:100%; float:left;}
+.main-aap .cate{width:48.5%; margin:0.4%; float:left; border:1px solid #ccc; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px;}
+.main-aap .cate img{width:100%; height:220px;}
+.main-aap .cate .sep{width:100%; float:left; margin:0; padding:0; color:#666;}
+.main-aap .cate .sep p{width:100%; float:left; margin:8px 0; padding:0; text-align:center; text-transform:uppercase; font-size:14px; line-height:16px; min-height:32px;}
+.main-aap .cate .sep .left{width:50%; float:left; margin:0; padding:0; text-align:center; font-size:14px; font-weight:400; color:#fff; line-height:30px; background:#9b2a29;}
+.main-aap .cate .sep .left span{text-decoration:line-through; background:#f2f2f2; width:100%; float:left; color:#111;}
+
 
 @media only screen and (min-width :481px) and (max-width : 568px){
     
